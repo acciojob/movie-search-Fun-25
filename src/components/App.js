@@ -27,7 +27,7 @@ import axios from "axios";
           type="text"
           placeholder="Enter Movie Name"
           onChange={(e) => setsearchTerm(e.target.value)}
-          value={search}
+          value={searchTerm}
         />
         <button type="submit" onClick={handleSearchMovie}>
           Search

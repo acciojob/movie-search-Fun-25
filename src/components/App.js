@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, {useState} from "react";
 import "./../styles/App.css";
 import axios from "axios";
  const App = () => {
@@ -48,7 +48,7 @@ import axios from "axios";
             </div>
           ))
         ) : (
-          <p className="error">{error}</p>
+          <p className="error">Invalid movie name. Please try again.</p>
         )}
       </ul>
 
